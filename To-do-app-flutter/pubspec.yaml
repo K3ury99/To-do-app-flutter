@@ -1,0 +1,30 @@
+name: to_do_app
+description: "A new Flutter project with tasks, dark mode, and language preferences."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Soporte para íconos estilo iOS
+  cupertino_icons: ^1.0.8
+
+  # Provider para la gestión de estado reactiva
+  provider: ^6.1.2
+
+  # Persistencia local
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
